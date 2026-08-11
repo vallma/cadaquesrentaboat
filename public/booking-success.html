@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="robots" content="noindex" />
+  <title>Reserva confirmada – Rent A Boat Cadaqués</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="/img/logo.png" type="image/png" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="nav-logo">Rent A Boat <span>Cadaqués</span></a>
+    </nav>
+  </header>
+
+  <section style="padding-top: var(--space-2xl); padding-bottom: var(--space-2xl); text-align: center;">
+    <div class="container" style="max-width: 520px;">
+      <div style="font-size: 3rem; margin-bottom: var(--space-md);">✅</div>
+      <h1 style="font-family:var(--font-display); color:var(--navy);" data-i18n="success.title">Reserva confirmada!</h1>
+      <p style="color:var(--ink-soft); margin: var(--space-sm) 0 var(--space-lg);" data-i18n="success.message"></p>
+
+      <div style="background: var(--sand); border-radius: var(--radius-md); padding: var(--space-lg); text-align:left;">
+        <div class="booking-price-row" style="border-top:none;">
+          <span data-i18n="success.ref">Referència</span>
+          <strong id="bookingRef">—</strong>
+        </div>
+        <div class="booking-price-row">
+          <span data-i18n="success.remaining">Resta a pagar abans de la sortida</span>
+          <strong id="remainingAmount">—</strong>
+        </div>
+      </div>
+
+      <p class="booking-note" data-i18n="success.emailNote" style="margin-top: var(--space-lg);"></p>
+
+      <a href="/" class="btn btn-primary" style="margin-top: var(--space-md);" data-i18n="success.backHome">Tornar a l'inici</a>
+    </div>
+  </section>
+
+  <script src="/js/translations.js"></script>
+  <script src="/js/boat-translations.js"></script>
+  <script src="/js/i18n.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const ref = params.get('ref');
+      const remaining = params.get('remaining');
+      const locale = params.get('locale');
+      if (ref) document.getElementById('bookingRef').textContent = ref;
+      if (remaining) document.getElementById('remainingAmount').textContent = `${Number(remaining).toFixed(2)}€`;
+      if (locale && ['ca', 'es', 'fr', 'en'].includes(locale)) setLang(locale);
+    });
+  </script>
+</body>
+</html>

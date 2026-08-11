@@ -1,0 +1,6 @@
+node_modules/
+.next/
+
+# env files (never commit real secrets)
+.env*
+!.env.example
