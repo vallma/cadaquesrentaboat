@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Alquiler de embarcaciones en Cadaqués y Port Lligat | Cadaqués Rent a Boat",
+    "description": "Alquila un barco en Cadaqués o Port Lligat, con o sin patrón, y descubre las calas del parque natural del Cap de Creus."
+  },
+  "nav": {
+    "boats": "Embarcaciones",
+    "experiences": "Experiencias",
+    "faq": "FAQs",
+    "contact": "Contacto",
+    "home": "Inicio",
+    "menu": "Menú",
+    "openMenu": "Abrir el menú",
+    "closeMenu": "Cerrar el menú",
+    "language": "Idioma",
+    "skip": "Ir al contenido",
+    "main": "Navegación principal"
+  },
+  "hero": {
+    "title": "Alquiler de embarcaciones en Cadaqués y Port Lligat",
+    "subtitle": "La mejor manera de disfrutar y descubrir las calas del parque natural del Cap de Creus",
+    "imageAlt": "Vista aérea de la bahía de Cadaqués con barcas fondeadas"
+  },
+  "search": {
+    "date": "Fecha",
+    "type": "Tipo de barca",
+    "all": "Todos",
+    "submit": "Buscar"
+  },
+  "types": {
+    "llanxa": "Lancha",
+    "llaut": "Llaüt",
+    "semirrigida": "Semirrígida"
+  },
+  "boats": {
+    "title": "Embarcaciones",
+    "viewAll": "Ver todas las embarcaciones",
+    "from": "desde {price}",
+    "halfDay": "medio día",
+    "onRequest": "Precio bajo demanda",
+    "people": "{count} pers.",
+    "power": "{hp} cv",
+    "licenseFree": "Sin licencia",
+    "empty": "No hay embarcaciones disponibles con estos filtros.",
+    "photoOf": "Embarcación {name}"
+  },
+  "footer": {
+    "explore": "Explora",
+    "legal": "Información legal",
+    "contact": "Contacto",
+    "privacy": "Política de privacidad",
+    "refunds": "Política de devoluciones",
+    "terms": "Términos y condiciones",
+    "cookies": "Política de cookies",
+    "rights": "Todos los derechos reservados",
+    "tagline": "Alquiler de embarcaciones en Cadaqués y Port Lligat"
+  },
+  "notFound": {
+    "title": "No hemos encontrado esta página",
+    "body": "Puede que el enlace sea antiguo o que la página todavía no esté disponible.",
+    "cta": "Volver al inicio"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "call": "Llamar",
+    "loading": "Cargando…"
+  },
+  "explorer": {
+    "metaTitle": "Embarcaciones de alquiler en Cadaqués y Port Lligat",
+    "metaDescription": "Explora en el mapa todas las embarcaciones de alquiler y filtra por personas, tipo, patrón, precio y punto de salida.",
+    "title": "Embarcaciones",
+    "results": "{count, plural, =0 {Ninguna embarcación} one {# embarcación} other {# embarcaciones}}",
+    "filters": "Filtros",
+    "clear": "Borrar filtros",
+    "apply": "Mostrar {count, plural, one {# embarcación} other {# embarcaciones}}",
+    "close": "Cerrar",
+    "date": "Fecha",
+    "people": "Personas",
+    "anyPeople": "Cualquiera",
+    "peopleOption": "{count, plural, one {# persona} other {# personas}} o más",
+    "type": "Tipo de embarcación",
+    "skipper": "Patrón",
+    "skipperNone": "Sin patrón",
+    "skipperOptional": "Patrón opcional",
+    "price": "Precio máximo",
+    "upTo": "Hasta {price}",
+    "departure": "Punto de salida",
+    "all": "Todos",
+    "showMap": "Mapa",
+    "showList": "Lista",
+    "viewOnMap": "Ver en el mapa",
+    "viewBoat": "Ver la embarcación",
+    "mapLabel": "Mapa de los puntos de salida",
+    "mapLoading": "Cargando el mapa…",
+    "mapError": "No se ha podido cargar el mapa. El listado sigue disponible.",
+    "resetView": "Centrar el mapa",
+    "pointCount": "{count, plural, =0 {ninguna embarcación} one {# embarcación} other {# embarcaciones}}",
+    "noneHere": "Ninguna embarcación con estos filtros",
+    "markerLabel": "{name}, desde {price}",
+    "emptyTitle": "Ninguna embarcación con estos filtros",
+    "emptyBody": "Prueba a quitar algún filtro o a cambiar el punto de salida.",
+    "testTag": "prueba",
+    "testTitle": "Datos de prueba",
+    "testBody": "Las ubicaciones del mapa son aproximadas y los precios no están validados.",
+    "dateNotice": "La disponibilidad aún no está conectada: la fecha se conserva, pero no filtra.",
+    "availabilityUnknown": "Disponibilidad por confirmar"
+  }
+}

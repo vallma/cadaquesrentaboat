@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Boat rental in Cadaqués and Port Lligat | Cadaqués Rent a Boat",
+    "description": "Rent a boat in Cadaqués or Port Lligat, with or without a skipper, and explore the coves of the Cap de Creus natural park."
+  },
+  "nav": {
+    "boats": "Boats",
+    "experiences": "Experiences",
+    "faq": "FAQs",
+    "contact": "Contact",
+    "home": "Home",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "skip": "Skip to content",
+    "main": "Main navigation"
+  },
+  "hero": {
+    "title": "Boat rental in Cadaqués and Port Lligat",
+    "subtitle": "The best way to enjoy and discover the coves of the Cap de Creus natural park",
+    "imageAlt": "Aerial view of Cadaqués bay with moored boats"
+  },
+  "search": {
+    "date": "Date",
+    "type": "Boat type",
+    "all": "All",
+    "submit": "Search"
+  },
+  "types": {
+    "llanxa": "Motorboat",
+    "llaut": "Llaüt",
+    "semirrigida": "RIB"
+  },
+  "boats": {
+    "title": "Boats",
+    "viewAll": "View all boats",
+    "from": "from {price}",
+    "halfDay": "half day",
+    "onRequest": "Price on request",
+    "people": "{count} people",
+    "power": "{hp} hp",
+    "licenseFree": "No licence needed",
+    "empty": "No boats are available with these filters.",
+    "photoOf": "{name} boat"
+  },
+  "footer": {
+    "explore": "Explore",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy policy",
+    "refunds": "Refund policy",
+    "terms": "Terms and conditions",
+    "cookies": "Cookie policy",
+    "rights": "All rights reserved",
+    "tagline": "Boat rental in Cadaqués and Port Lligat"
+  },
+  "notFound": {
+    "title": "We couldn't find this page",
+    "body": "The link may be out of date, or the page may not be available yet.",
+    "cta": "Back to home"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "call": "Call",
+    "loading": "Loading…"
+  },
+  "explorer": {
+    "metaTitle": "Boats for rent in Cadaqués and Port Lligat",
+    "metaDescription": "Explore every rental boat on the map and filter by group size, type, skipper, price and departure point.",
+    "title": "Boats",
+    "results": "{count, plural, =0 {No boats} one {# boat} other {# boats}}",
+    "filters": "Filters",
+    "clear": "Clear filters",
+    "apply": "Show {count, plural, one {# boat} other {# boats}}",
+    "close": "Close",
+    "date": "Date",
+    "people": "People",
+    "anyPeople": "Any",
+    "peopleOption": "{count, plural, one {# person} other {# people}} or more",
+    "type": "Boat type",
+    "skipper": "Skipper",
+    "skipperNone": "No skipper",
+    "skipperOptional": "Optional skipper",
+    "price": "Maximum price",
+    "upTo": "Up to {price}",
+    "departure": "Departure point",
+    "all": "All",
+    "showMap": "Map",
+    "showList": "List",
+    "viewOnMap": "View on map",
+    "viewBoat": "View boat",
+    "mapLabel": "Map of departure points",
+    "mapLoading": "Loading map…",
+    "mapError": "The map couldn't be loaded. The list is still available.",
+    "resetView": "Recentre map",
+    "pointCount": "{count, plural, =0 {no boats} one {# boat} other {# boats}}",
+    "noneHere": "No boats match these filters",
+    "markerLabel": "{name}, from {price}",
+    "emptyTitle": "No boats match these filters",
+    "emptyBody": "Try removing a filter or changing the departure point.",
+    "testTag": "test",
+    "testTitle": "Test data",
+    "testBody": "Map locations are approximate and prices have not been validated.",
+    "dateNotice": "Availability isn't connected yet: the date is kept but doesn't filter.",
+    "availabilityUnknown": "Availability to be confirmed"
+  }
+}

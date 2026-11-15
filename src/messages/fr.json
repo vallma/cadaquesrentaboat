@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Location de bateaux à Cadaqués et Port Lligat | Cadaqués Rent a Boat",
+    "description": "Louez un bateau à Cadaqués ou Port Lligat, avec ou sans skipper, et découvrez les criques du parc naturel du Cap de Creus."
+  },
+  "nav": {
+    "boats": "Bateaux",
+    "experiences": "Expériences",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "home": "Accueil",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "skip": "Aller au contenu",
+    "main": "Navigation principale"
+  },
+  "hero": {
+    "title": "Location de bateaux à Cadaqués et Port Lligat",
+    "subtitle": "La meilleure façon de profiter des criques du parc naturel du Cap de Creus et de les découvrir",
+    "imageAlt": "Vue aérienne de la baie de Cadaqués avec des bateaux au mouillage"
+  },
+  "search": {
+    "date": "Date",
+    "type": "Type de bateau",
+    "all": "Tous",
+    "submit": "Rechercher"
+  },
+  "types": {
+    "llanxa": "Vedette",
+    "llaut": "Llaüt",
+    "semirrigida": "Semi-rigide"
+  },
+  "boats": {
+    "title": "Bateaux",
+    "viewAll": "Voir tous les bateaux",
+    "from": "à partir de {price}",
+    "halfDay": "demi-journée",
+    "onRequest": "Prix sur demande",
+    "people": "{count} pers.",
+    "power": "{hp} ch",
+    "licenseFree": "Sans permis",
+    "empty": "Aucun bateau disponible avec ces filtres.",
+    "photoOf": "Bateau {name}"
+  },
+  "footer": {
+    "explore": "Explorer",
+    "legal": "Informations légales",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "refunds": "Politique de remboursement",
+    "terms": "Conditions générales",
+    "cookies": "Politique de cookies",
+    "rights": "Tous droits réservés",
+    "tagline": "Location de bateaux à Cadaqués et Port Lligat"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "Le lien est peut-être ancien, ou la page n'est pas encore disponible.",
+    "cta": "Retour à l'accueil"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "call": "Appeler",
+    "loading": "Chargement…"
+  },
+  "explorer": {
+    "metaTitle": "Bateaux à louer à Cadaqués et Port Lligat",
+    "metaDescription": "Explorez sur la carte tous les bateaux à louer et filtrez par nombre de personnes, type, skipper, prix et point de départ.",
+    "title": "Bateaux",
+    "results": "{count, plural, =0 {Aucun bateau} one {# bateau} other {# bateaux}}",
+    "filters": "Filtres",
+    "clear": "Effacer les filtres",
+    "apply": "Afficher {count, plural, one {# bateau} other {# bateaux}}",
+    "close": "Fermer",
+    "date": "Date",
+    "people": "Personnes",
+    "anyPeople": "Indifférent",
+    "peopleOption": "{count, plural, one {# personne} other {# personnes}} ou plus",
+    "type": "Type de bateau",
+    "skipper": "Skipper",
+    "skipperNone": "Sans skipper",
+    "skipperOptional": "Skipper en option",
+    "price": "Prix maximum",
+    "upTo": "Jusqu'à {price}",
+    "departure": "Point de départ",
+    "all": "Tous",
+    "showMap": "Carte",
+    "showList": "Liste",
+    "viewOnMap": "Voir sur la carte",
+    "viewBoat": "Voir le bateau",
+    "mapLabel": "Carte des points de départ",
+    "mapLoading": "Chargement de la carte…",
+    "mapError": "La carte n'a pas pu être chargée. La liste reste disponible.",
+    "resetView": "Recentrer la carte",
+    "pointCount": "{count, plural, =0 {aucun bateau} one {# bateau} other {# bateaux}}",
+    "noneHere": "Aucun bateau avec ces filtres",
+    "markerLabel": "{name}, à partir de {price}",
+    "emptyTitle": "Aucun bateau avec ces filtres",
+    "emptyBody": "Essayez de retirer un filtre ou de changer de point de départ.",
+    "testTag": "test",
+    "testTitle": "Données de test",
+    "testBody": "Les emplacements sur la carte sont approximatifs et les prix ne sont pas validés.",
+    "dateNotice": "La disponibilité n'est pas encore connectée : la date est conservée, mais ne filtre pas.",
+    "availabilityUnknown": "Disponibilité à confirmer"
+  }
+}

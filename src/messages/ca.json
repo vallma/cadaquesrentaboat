@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Lloguer d'embarcacions a Cadaqués i Port Lligat | Cadaqués Rent a Boat",
+    "description": "Lloga una barca a Cadaqués o Port Lligat, amb patró o sense, i descobreix les cales del parc natural del Cap de Creus."
+  },
+  "nav": {
+    "boats": "Embarcacions",
+    "experiences": "Experiències",
+    "faq": "FAQs",
+    "contact": "Contacte",
+    "home": "Inici",
+    "menu": "Menú",
+    "openMenu": "Obre el menú",
+    "closeMenu": "Tanca el menú",
+    "language": "Idioma",
+    "skip": "Vés al contingut",
+    "main": "Navegació principal"
+  },
+  "hero": {
+    "title": "Lloguer d'embarcacions a Cadaqués i Port Lligat",
+    "subtitle": "La millor manera de gaudir i descobrir les cales del parc natural del Cap de Creus",
+    "imageAlt": "Vista aèria de la badia de Cadaqués amb barques fondejades"
+  },
+  "search": {
+    "date": "Data",
+    "type": "Tipus de barca",
+    "all": "Tots",
+    "submit": "Buscar"
+  },
+  "types": {
+    "llanxa": "Llanxa",
+    "llaut": "Llaüt",
+    "semirrigida": "Semirígida"
+  },
+  "boats": {
+    "title": "Embarcacions",
+    "viewAll": "Veure totes les embarcacions",
+    "from": "des de {price}",
+    "halfDay": "mig dia",
+    "onRequest": "Preu sota demanda",
+    "people": "{count} pers.",
+    "power": "{hp} cv",
+    "licenseFree": "Sense llicència",
+    "empty": "No hi ha embarcacions disponibles amb aquests filtres.",
+    "photoOf": "Embarcació {name}"
+  },
+  "footer": {
+    "explore": "Explora",
+    "legal": "Informació legal",
+    "contact": "Contacte",
+    "privacy": "Política de privacitat",
+    "refunds": "Política de devolucions",
+    "terms": "Termes i condicions",
+    "cookies": "Política de cookies",
+    "rights": "Tots els drets reservats",
+    "tagline": "Lloguer d'embarcacions a Cadaqués i Port Lligat"
+  },
+  "notFound": {
+    "title": "No hem trobat aquesta pàgina",
+    "body": "Pot ser que l'enllaç sigui antic o que la pàgina encara no estigui disponible.",
+    "cta": "Torna a l'inici"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "call": "Trucar",
+    "loading": "Carregant…"
+  },
+  "explorer": {
+    "metaTitle": "Embarcacions de lloguer a Cadaqués i Port Lligat",
+    "metaDescription": "Explora al mapa totes les embarcacions de lloguer, filtra per persones, tipus, patró, preu i punt de sortida.",
+    "title": "Embarcacions",
+    "results": "{count, plural, =0 {Cap embarcació} one {# embarcació} other {# embarcacions}}",
+    "filters": "Filtres",
+    "clear": "Esborrar filtres",
+    "apply": "Mostrar {count, plural, one {# embarcació} other {# embarcacions}}",
+    "close": "Tancar",
+    "date": "Data",
+    "people": "Persones",
+    "anyPeople": "Qualsevol",
+    "peopleOption": "{count, plural, one {# persona} other {# persones}} o més",
+    "type": "Tipus d'embarcació",
+    "skipper": "Patró",
+    "skipperNone": "Sense patró",
+    "skipperOptional": "Patró opcional",
+    "price": "Preu màxim",
+    "upTo": "Fins a {price}",
+    "departure": "Punt de sortida",
+    "all": "Tots",
+    "showMap": "Mapa",
+    "showList": "Llista",
+    "viewOnMap": "Veure al mapa",
+    "viewBoat": "Veure l'embarcació",
+    "mapLabel": "Mapa dels punts de sortida",
+    "mapLoading": "Carregant el mapa…",
+    "mapError": "No s'ha pogut carregar el mapa. El llistat continua disponible.",
+    "resetView": "Centrar el mapa",
+    "pointCount": "{count, plural, =0 {cap embarcació} one {# embarcació} other {# embarcacions}}",
+    "noneHere": "Cap embarcació amb aquests filtres",
+    "markerLabel": "{name}, des de {price}",
+    "emptyTitle": "Cap embarcació amb aquests filtres",
+    "emptyBody": "Prova de treure algun filtre o de canviar el punt de sortida.",
+    "testTag": "prova",
+    "testTitle": "Dades de prova",
+    "testBody": "Les ubicacions del mapa són aproximades i els preus no estan validats.",
+    "dateNotice": "La disponibilitat encara no està connectada: la data es conserva, però no filtra.",
+    "availabilityUnknown": "Disponibilitat per confirmar"
+  }
+}
