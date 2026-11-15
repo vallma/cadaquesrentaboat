@@ -4,7 +4,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { Map as MapLibreMap, Marker } from "maplibre-gl";
-import { LocateFixed, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { mapConfig } from "@/config/map";
 import type { Boat, DeparturePoint } from "@/lib/catalog/types";
@@ -42,6 +42,7 @@ export function ExplorerMap({
   className?: string;
 }) {
   const t = useTranslations("explorer");
+  const resetLabel = t("resetView");
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const markersRef = useRef<Record<string, Marker>>({});
@@ -97,6 +98,27 @@ export function ExplorerMap({
         mapRef.current = map;
         map.touchZoomRotate.disableRotation();
         map.addControl(new maplibre.NavigationControl({ showCompass: false }), "bottom-right");
+        // Botón «centrar» como control propio del mapa, para que se apile con
+        // el zoom en lugar de superponerse.
+        map.addControl(
+          {
+            onAdd() {
+              const group = document.createElement("div");
+              group.className = "maplibregl-ctrl maplibregl-ctrl-group";
+              const button = document.createElement("button");
+              button.type = "button";
+              button.title = resetLabel;
+              button.setAttribute("aria-label", resetLabel);
+              button.innerHTML =
+                '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin:auto;display:block"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>';
+              button.addEventListener("click", () => fitToPoints(true));
+              group.appendChild(button);
+              return group;
+            },
+            onRemove() {},
+          },
+          "bottom-right",
+        );
 
         const nextSlots: Record<string, HTMLElement> = {};
         departurePoints.forEach((p) => {
@@ -134,7 +156,7 @@ export function ExplorerMap({
     return () => {
       cancelled = true;
     };
-  }, [visible, departurePoints, fitToPoints]);
+  }, [visible, departurePoints, fitToPoints, resetLabel]);
 
   // Libera el mapa al desmontar.
   useEffect(
@@ -184,18 +206,6 @@ export function ExplorerMap({
             />,
             slots[point.id],
           ),
-      )}
-
-      {status === "ready" && (
-        <button
-          type="button"
-          onClick={() => fitToPoints(true)}
-          aria-label={t("resetView")}
-          title={t("resetView")}
-          className="absolute bottom-[5.75rem] right-2.5 z-10 inline-flex size-[29px] items-center justify-center rounded bg-white text-ink shadow-[0_0_0_2px_rgb(0_0_0/0.1)] hover:bg-surface"
-        >
-          <LocateFixed className="size-4" aria-hidden />
-        </button>
       )}
 
       {(status === "loading" || status === "idle") && (
